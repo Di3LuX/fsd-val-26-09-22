@@ -1,0 +1,152 @@
+body {
+  background-color: red;
+}
+
+.container {
+  background-color: rgb(31, 31, 31);
+  height: 95vh;
+  width: 95vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 5vh 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+}
+
+#container-b1 {
+  color: white;
+  background-color: black;
+  grid-column: 1 / 7;
+  display: flex;
+  justify-content: space-between;
+  height: 7vh;
+}
+
+#container-b1-izd {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: left;
+}
+
+#netflix {
+  background-image: url(https://brandemia.org/sites/default/files/sites/default/files/icono_netflix_nuevo.jpg);
+  background-size: cover;
+}
+
+#inicio {
+  margin:0 1vw 0 2vw;
+}
+
+#series {
+  margin:0 1vw 0 2vw;
+}
+
+#pelis {
+  margin:0 1vw 0 2vw;
+}
+
+#novedades {
+  margin:0 1vw 0 2vw;
+}
+
+#lista {
+  margin:0 1vw 0 2vw;
+}
+
+#container-b1-der {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#lupa {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+#regalo {
+  margin-right: 1vw;
+}
+
+#campana {
+  margin-right: 1vw;
+}
+
+#perfil {
+  margin-right: 1vw;
+}
+
+#container-b2 {
+  color: whitesmoke;
+  /* background-color: rgb(235, 235, 235); */
+  grid-column: 1 / 7;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  margin: 2vh 0 0 3vw;
+}
+
+#container-b3 {
+  /* background-color: rgb(190, 190, 190); */
+  grid-column: 1 / 7;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+}
+
+#container-b4 {
+  color: whitesmoke;
+  /* background-color: rgb(187, 187, 187); */
+  grid-column: 1 / 7;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  margin: 2vh 0 0 3vw;
+
+}
+
+#container-b5 {
+  /* background-color: rgb(158, 158, 158); */
+  grid-column: 1 / 7;
+  display: flex;
+  align-items: center;
+}
+
+#container-b6 {
+  color: whitesmoke;
+  /* background-color: rgb(131, 131, 131); */
+  grid-column: 1 / 7;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  margin: 2vh 0 0 3vw;
+
+}
+
+#container-b7 {
+  /* background-color: rgb(92, 92, 92); */
+  grid-column: 1 / 7;
+  display: flex;
+  align-items: center;
+}
+
+#container-b8 {
+    /* background-color: rgb(53, 53, 53); */
+  color: whitesmoke;
+  font-size: larger;
+  grid-column: 1 / 7;
+  margin: 2vh 0 0 3vw;
+}
+
+.imagenes {
+  border: 2px solid black;
+  width: 298px;
+  height: 168px;
+  margin: 0 2vh 0 2vh;
+  background-size: cover;
+  justify-content: center;
+}
+
+.zoom:hover {
+  transform: scale(1.3);
+  transition: 1s;
+}

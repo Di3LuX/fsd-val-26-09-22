@@ -1,0 +1,22 @@
+La estructura se "reestructura" dependiendo del dispositivo movil:
+  Ventajas:
+
+    reduccion costes
+    eficiencia de actualizacion
+    SEO: posicionamiento web
+
+Cosas a tener en cuenta:
+
+  Puede cambiar la disposicion, tanto apilando como modificando el tamaño de objetos dentro de la web.
+  Aunque algunas cosas no varien o se modifiquen dentro de unos limites: tamaño de fuente, simbologia, etc.
+
+"Mobile First":
+
+  https://www.ionos.es/digitalguide/paginas-web/diseno-web/mobile-first-la-nueva-tendencia-del-diseno-web/
+  https://aukera.es/blog/diseno-responsive/
+
+viewport:
+
+  Fluid design: unidades estaticas o relativas
+
+  360*640
